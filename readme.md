@@ -13,6 +13,10 @@ cp .env.example .env
 ### Run Project
 
 ```sh
+docker run --rm -v $(pwd):/app composer install
+```
+
+```sh
 docker-compose up
 ```
 
