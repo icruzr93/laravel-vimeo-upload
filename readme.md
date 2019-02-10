@@ -10,7 +10,7 @@ cp .env.example .env
 
 * Update your vimeo configuration inside .env
 
-### Run Project
+### Install Dependencies And Run Docker
 
 ```sh
 docker run --rm -v $(pwd):/app composer install
